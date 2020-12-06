@@ -1,0 +1,13 @@
+Cuando quieres cambiar los nombres por ejemplo de un pichard de datastudio
+
+CASE
+    WHEN REGEXP_MATCH(Campaña, ".*cupra formentor.*")  THEN "cupra formentor"
+    WHEN REGEXP_MATCH(Campaña, ".*cupra ateca.*")  THEN "cupra ateca"
+    ELSE "cupra"
+END
+
+
+puedes verlo en este datastudio
+
+https://datastudio.google.com/reporting/c24d6df3-e3f4-4a19-a8de-e2c6e6b7d7a7
+
